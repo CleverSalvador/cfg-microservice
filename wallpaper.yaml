@@ -1,0 +1,27 @@
+server:
+  port: 8090
+#Conexion a Postgres
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wallpaper
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+#Propiedades de JPA  
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgresSQLDialect
+    hibernate:
+      ddl-auto: create
+#Definir el tamaño de subida de imagenes
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+#Log de consultas
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
