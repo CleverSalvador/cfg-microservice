@@ -25,3 +25,7 @@ logging:
     org:
       hibernate:
         SQL: debug
+#String de conexion al Azure Blob storage
+azure:
+  storage:
+    connection-string: DefaultEndpointsProtocol=https;AccountName=accountimage;AccountKey=Ie9qI1wTOI+1UK079gxPj6iMw3A+6wq/qKeJWOQU3RqsB1yoNXdkOmnO77C6XYX7xKbrjlqOFZOH+ASt7bcmmQ==;EndpointSuffix=core.windows.net
