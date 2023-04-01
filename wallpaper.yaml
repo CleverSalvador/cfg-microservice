@@ -28,4 +28,4 @@ logging:
 #String de conexion al Azure Blob storage
 azure:
   storage:
-    connection-string: DefaultEndpointsProtocol=https;AccountName=accountimage;AccountKey=Ie9qI1wTOI+1UK079gxPj6iMw3A+6wq/qKeJWOQU3RqsB1yoNXdkOmnO77C6XYX7xKbrjlqOFZOH+ASt7bcmmQ==;EndpointSuffix=core.windows.net
+    connection-string: DefaultEndpointsProtocol=https;AccountName=wallpaperimages;AccountKey=1dsz9Sf/zcIQ7PCSQbKBv4Qb6kvyER0oiPD7gb7WNSl7Z0L+rpNbLwgG6Zh0vsGqHkOnJ5/r9maa+AStONJLYg==;EndpointSuffix=core.windows.net
