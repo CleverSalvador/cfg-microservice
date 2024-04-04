@@ -1,2 +1,15 @@
-app:
-  name: Hola Camel with Quarkus desde ConfigServer
+application:
+  backend-endpoints:
+    rest:
+      aldeamo:
+        url:
+          basepath: ticketmanagementaverias
+          operations:
+            - path: /abc
+        timeout:
+          connection: 5000
+          read: 5000
+          write: 5000
+        security:
+          user: abcdd
+          password: 456132654
