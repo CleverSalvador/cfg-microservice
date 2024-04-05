@@ -17,3 +17,8 @@ application:
   dynamic-value-mapping:
     sms-content:
       SMS1: 'Usa el codigo [code] para completar tu registro en nuestra App'
+      
+quarkus:
+  mongodb:
+    connection-string: mongodb://root:admin@localhost:27017
+    database: userotpcode
