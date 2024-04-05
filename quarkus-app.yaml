@@ -3,9 +3,9 @@ application:
     rest:
       aldeamo:
         url:
-          basepath: ticketmanagementaverias
+          basepath: https://apitellit.aldeamo.com/SmsiWS
           operations:
-            - path: /abc
+            - path: /smsSendPost
         timeout:
           connection: 5000
           read: 5000
