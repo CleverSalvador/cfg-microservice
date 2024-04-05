@@ -11,5 +11,9 @@ application:
           read: 5000
           write: 5000
         security:
-          user: abcdd
-          password: 456132654
+          user: ecare_movistar
+          password: Ecare2023*
+
+  dynamic-value-mapping:
+    sms-content:
+      SMS1: 'Usa el codigo [code] para completar tu registro en nuestra App'
